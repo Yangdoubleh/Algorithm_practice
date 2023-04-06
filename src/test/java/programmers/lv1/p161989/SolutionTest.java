@@ -1,4 +1,4 @@
-package programmers.p161989;
+package programmers.lv1.p161989;
 
 import lombok.extern.slf4j.Slf4j;
 import org.assertj.core.api.Assertions;

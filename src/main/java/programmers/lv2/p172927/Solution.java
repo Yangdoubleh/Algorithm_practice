@@ -1,4 +1,4 @@
-package programmers.p172927;
+package programmers.lv2.p172927;
 
 import java.util.*;
 import java.util.stream.Collectors;

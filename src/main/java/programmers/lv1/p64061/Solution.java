@@ -1,4 +1,4 @@
-package programmers.p64061;
+package programmers.lv1.p64061;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

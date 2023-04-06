@@ -1,4 +1,4 @@
-package programmers.p64061;
+package programmers.lv1.p64061;
 
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
@@ -12,10 +12,10 @@ class SolutionTest {
 
     private int[] moves;
 
-    private final Solution solution;
+    private final programmers.lv1.p64061.Solution solution;
 
     SolutionTest() {
-        this.solution = new Solution();
+        this.solution = new programmers.lv1.p64061.Solution();
     }
 
     @Test

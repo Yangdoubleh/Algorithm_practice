@@ -1,4 +1,4 @@
-package programmers.p161989;
+package programmers.lv1.p161989;
 
 import java.util.Arrays;
 import java.util.List;

@@ -1,6 +1,5 @@
-package programmers.p172927;
+package programmers.lv2.p172927;
 
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.*;
