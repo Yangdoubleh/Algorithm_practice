@@ -12,15 +12,16 @@ class Solution {
         }
 
         for (String calling : callings) {
-            int idx = playerMap.get(calling);
+            int before = playerMap.get(calling);
+            int after = before - 1;
 
-            playerMap.put(calling, idx - 1);
+            playerMap.put(calling, after);
 
-            String item = players[idx - 1];
-            playerMap.put(item, idx);
+            String chased = players[after];
+            playerMap.put(chased, before);
 
-            players[idx-1] = calling;
-            players[idx] = item;
+            players[after] = calling;
+            players[before] = chased;
         }
 
         return players;
